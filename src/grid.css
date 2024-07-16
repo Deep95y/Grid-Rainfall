@@ -1,0 +1,17 @@
+/* src/Grid.css */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(20, 25px);
+    grid-template-rows: repeat(15, 25px);
+    gap: 2px;
+    background-color: #000;
+    padding: 10px;
+    border: 2px solid #333;
+  }
+  
+  .cell {
+    width: 25px;
+    height: 25px;
+    border: 3.5px solid #111;
+  }
+  
